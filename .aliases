@@ -1,0 +1,20 @@
+#!/bin/sh
+
+alias ls='ls --color=auto'
+alias lah='ls -lah'
+alias la='ls -a'
+alias du='du -h'
+alias df='df -H'
+
+alias fuck='eval $(thefuck $(fc -ln -1 | tail -n 1)); fc -R'
+alias fukc='fuck'
+alias FUCK='fuck'
+#alias please='sudo'
+#alias sudo='sudo '
+
+alias vi='vim'
+alias stopx='pkill -15 x'
+
+alias tmux='tmux -2'
+# Raspberry Pi only
+#alias temperature='/opt/vc/bin/vcgencmd measure_temp'
